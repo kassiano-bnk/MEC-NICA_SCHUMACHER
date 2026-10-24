@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Mecânica Schumacher | Marechal Cândido Rondon - PR</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="top-bar">
+      <span
+        ><i class="fa-solid fa-location-dot"></i> Avenida Maripá, Marechal
+        Cândido Rondon - PR</span
+      >
+      <span><i class="fa-solid fa-phone"></i> (45) 9912-5310</span>
+    </div>
+
+    <header class="header">
+      <div class="container nav-container">
+        <a href="#" class="logo">
+          <div class="logo-icon">
+            <i class="fa-solid fa-gears"></i>
+          </div>
+          <div class="logo-text">
+            <span class="logo-main">Mecânica</span>
+            <span class="logo-sub">Schumacher</span>
+          </div>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#agendamento" class="nav-link">Agendamento</a></li>
+          <li><a href="#localizacao" class="nav-link">Localização</a></li>
+        </ul>
+
+        <div class="btn-whatsapp-desktop">
+          <a
+            href="https://wa.me/554599125310?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20na%20Auto%20Mecânica%20Schumacher."
+            target="_blank"
+            class="btn-whatsapp"
+          >
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+
+        <button id="menu-toggle" class="menu-toggle" aria-label="Abrir Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div id="mobile-nav" class="mobile-nav">
+        <ul class="mobile-nav-list">
+          <li><a href="#inicio" class="nav-link mobile-link">Início</a></li>
+          <li><a href="#servicos" class="nav-link mobile-link">Serviços</a></li>
+          <li><a href="#sobre" class="nav-link mobile-link">Sobre Nós</a></li>
+          <li>
+            <a href="#agendamento" class="nav-link mobile-link">Agendamento</a>
+          </li>
+          <li>
+            <a href="#localizacao" class="nav-link mobile-link">Localização</a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/554599125310"
+              target="_blank"
+              class="btn-whatsapp"
+              style="width: 100%; justify-content: center"
+            >
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="badge">
+            <i class="fa-solid fa-shield-halved"></i> Tradição e Tecnologia
+            Automotiva
+          </div>
+          <h1 class="hero-title">
+            Manutenção veicular com <span class="highlight">precisão</span> e
+            honestidade.
+          </h1>
+          <p class="hero-description">
+            Especialistas em diagnósticos computadorizados, injeção eletrônica,
+            freios, suspensão e mecânica geral na Avenida Maripá em Marechal
+            Cândido Rondon.
+          </p>
+          <div class="hero-buttons">
+            <a href="#agendamento" class="btn-primary">
+              <i class="fa-regular fa-calendar-check"></i> Agendar Revisão
+            </a>
+            <a href="#servicos" class="btn-secondary">Nossos Serviços</a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <span class="stat-number">+15</span>
+              <span class="stat-label">Anos de Mercado</span>
+            </div>
+            <div>
+              <span class="stat-number">+5.000</span>
+              <span class="stat-label">Carros Atendidos</span>
+            </div>
+            <div>
+              <span class="stat-number" style="color: var(--accent-color)"
+                >100%</span
+              >
+              <span class="stat-label">Garantia</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <div class="dots">
+              <div class="dot dot-red"></div>
+              <div class="dot dot-yellow"></div>
+              <div class="dot dot-green"></div>
+            </div>
+            
+          </div>
+          <div class="card-item">
+            <div class="card-item-icon">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div>
+              <h4 style="font-size: 0.95rem; font-weight: 700">
+                Injeção Eletrônica & Scanner
+              </h4>
+              <p style="font-size: 0.8rem; color: var(--text-muted)">
+                Leitura computadorizada completa de falhas.
+              </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <div
+              class="card-item-icon"
+              style="color: #f97316; background-color: rgba(249, 115, 22, 0.1)"
+            >
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+            <div>
+              <h4 style="font-size: 0.95rem; font-weight: 700">
+                Revisão de Freios e Suspensão
+              </h4>
+              <p style="font-size: 0.8rem; color: var(--text-muted)">
+                Segurança máxima para a sua viagem.
+              </p>
+            </div>
+          </div>
+          <a
+            href="#agendamento"
+            class="btn-secondary"
+            style="display: block; width: 100%; margin-top: 1rem"
+          >
+            Solicitar Diagnóstico Rápido
+            <i class="fa-solid fa-arrow-right" style="margin-left: 0.5rem"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="servicos"
+      class="section-padding"
+      style="background-color: var(--bg-dark)"
+    >
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle">Soluções Automotivas</span>
+          <h2 class="section-title">Serviços Especializados</h2>
+          <p class="section-desc">
+            Cuidamos de todas as marcas e modelos com peças de alta qualidade e
+            mão de obra qualificada.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <h3 class="service-title">Injeção Eletrônica</h3>
+            <p class="service-text">
+              Limpeza de bicos injetores, testes de sensores e reprogramação
+              computadorizada de centralina.
+            </p>
+            <a href="#agendamento" class="service-link"
+              >Agendar <i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-car-burst"></i>
+            </div>
+            <h3 class="service-title">Freios e Suspensão</h3>
+            <p class="service-text">
+              Troca de pastilhas, discos, fluido de freio, amortecedores e
+              alinhamento de componentes.
+            </p>
+            <a href="#agendamento" class="service-link"
+              >Agendar <i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-clipboard-check"></i>
+            </div>
+            <h3 class="service-title">Revisão Preventiva</h3>
+            <p class="service-text">
+              Checagem de mais de 40 itens vitais do seu veículo para evitar
+              quebras repentinas.
+            </p>
+            <a href="#agendamento" class="service-link"
+              >Agendar <i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-oil-can"></i></div>
+            <h3 class="service-title">Troca de Óleo e Filtros</h3>
+            <p class="service-text">
+              Óleos sintéticos e semissintéticos homologados pelas montadoras
+              com substituição de filtros.
+            </p>
+            <a href="#agendamento" class="service-link"
+              >Agendar <i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-car-battery"></i>
+            </div>
+            <h3 class="service-title">Motor e Câmbio</h3>
+            <p class="service-text">
+              Manutenção preventiva e corretiva de cabeçotes, troca de correia
+              dentada e embreagem.
+            </p>
+            <a href="#agendamento" class="service-link"
+              >Agendar <i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-snowflake"></i>
+            </div>
+            <h3 class="service-title">Ar Condicionado</h3>
+            <p class="service-text">
+              Higienização com ozônio, recarga de gás refrigerante e reparo no
+              sistema de arrefecimento.
+            </p>
+            <a href="#agendamento" class="service-link"
+              >Agendar <i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="agendamento"
+      class="section-padding"
+      style="background-color: var(--bg-card)"
+    >
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle">Agendamento Online</span>
+          <h2 class="section-title">Reserve seu Horário na Oficina</h2>
+          <p class="section-desc">
+            Escolha a data e o serviço desejado. Retornaremos rapidamente
+            confirmando seu atendimento.
+          </p>
+        </div>
+
+        <div class="booking-box">
+          <form id="booking-form">
+            <div class="form-grid form-grid-2">
+              <div class="form-group">
+                <label class="form-label" for="nome">Nome Completo *</label>
+                <input
+                  type="text"
+                  id="nome"
+                  required
+                  class="form-input"
+                  placeholder="Ex: Roberto Silva"
+                />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="telefone"
+                  >WhatsApp / Telefone *</label
+                >
+                <input
+                  type="tel"
+                  id="telefone"
+                  required
+                  class="form-input"
+                  placeholder="(45) 9999-9999"
+                />
+              </div>
+            </div>
+
+            <div class="form-grid form-grid-2">
+              <div class="form-group">
+                <label class="form-label" for="veiculo"
+                  >Modelo / Ano do Carro *</label
+                >
+                <input
+                  type="text"
+                  id="veiculo"
+                  required
+                  class="form-input"
+                  placeholder="Ex: VW Gol 1.6 2019"
+                />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="servico"
+                  >Serviço Necessário *</label
+                >
+                <select id="servico" required class="form-select">
+                  <option value="" disabled selected>
+                    Selecione um serviço
+                  </option>
+                  <option value="Injeção Eletrônica">
+                    Injeção Eletrônica / Scanner
+                  </option>
+                  <option value="Freios e Suspensão">Freios e Suspensão</option>
+                  <option value="Revisão Preventiva">Revisão Preventiva</option>
+                  <option value="Troca de Óleo">Troca de Óleo e Filtros</option>
+                  <option value="Motor e Câmbio">Motor e Câmbio</option>
+                  <option value="Ar Condicionado">Ar Condicionado</option>
+                  <option value="Geral">Orçamento Geral</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-grid form-grid-2">
+              <div class="form-group">
+                <label class="form-label" for="data">Data Desejada *</label>
+                <input
+                  type="text"
+                  id="data"
+                  name="data"
+                  placeholder="dd/mm/aaaa"
+                  onfocus="this.type = 'date'"
+                  onblur="if (!this.value) this.type = 'text';"
+                  lang="pt-BR"
+                  required
+                  class="form-input"
+                />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="turno">Turno Preferencial</label>
+                <select id="turno" class="form-select">
+                  <option value="Manhã (07:30 - 12:00)">
+                    Manhã (07:30 - 12:00)
+                  </option>
+                  <option value="Tarde (13:30 - 18:00)">
+                    Tarde (13:30 - 18:00)
+                  </option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-bottom: 1.5rem">
+              <label class="form-label" for="observacoes"
+                >Sintoma ou Observação</label
+              >
+              <textarea
+                id="observacoes"
+                rows="3"
+                class="form-textarea"
+                placeholder="Descreva ruídos, luzes acesas no painel ou necessidades específicas..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%">
+              <i class="fa-solid fa-paper-plane"></i> Solicitar Agendamento
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="localizacao"
+      class="section-padding"
+      style="background-color: var(--bg-dark)"
+    >
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle">Onde Estamos</span>
+          <h2 class="section-title">Venha Conhecer Nossa Oficina</h2>
+          <p class="section-desc">
+            Localização estratégica de fácil acesso em Marechal Cândido Rondon -
+            PR.
+          </p>
+        </div>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14510.638706346914!2d-54.0628287!3d-24.5583594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f3803ef3da62bf%3A0xb111c91d4e1413d4!2sAv.%20Marip%C3%A1%2C%20Marechal%20C%C3%A2ndido%20Rondon%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding" style="background-color: var(--bg-card)">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle">Depoimentos</span>
+          <h2 class="section-title">Confiança Comprovada</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p style="font-size: 0.9rem; color: var(--text-muted)">
+                "Ótimo atendimento, diagnosticaram um problema na injeção do meu
+                carro que outras oficinas não encontraram."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="avatar">MR</div>
+              <div>
+                <strong style="font-size: 0.9rem; color: #fff"
+                  >Marcos R.</strong
+                >
+                <span
+                  style="
+                    display: block;
+                    font-size: 0.75rem;
+                    color: var(--text-muted);
+                  "
+                  >Marechal Cândido Rondon</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p style="font-size: 0.9rem; color: var(--text-muted)">
+                "Transparência total no orçamento e agilidade na entrega.
+                Recomendo de olhos fechados!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="avatar">JS</div>
+              <div>
+                <strong style="font-size: 0.9rem; color: #fff"
+                  >Juliana S.</strong
+                >
+                <span
+                  style="
+                    display: block;
+                    font-size: 0.75rem;
+                    color: var(--text-muted);
+                  "
+                  >Marechal Cândido Rondon</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p style="font-size: 0.9rem; color: var(--text-muted)">
+                "Serviço de freio e suspensão nota 10. Carro ficou perfeito e
+                silencioso."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="avatar">AP</div>
+              <div>
+                <strong style="font-size: 0.9rem; color: #fff">André P.</strong>
+                <span
+                  style="
+                    display: block;
+                    font-size: 0.75rem;
+                    color: var(--text-muted);
+                  "
+                  >Marechal Cândido Rondon</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="logo" style="margin-bottom: 1rem">
+              <div class="logo-icon"><i class="fa-solid fa-gears"></i></div>
+              <div class="logo-text">
+                <span class="logo-main">Mecânica</span>
+                <span class="logo-sub">Schumacher</span>
+              </div>
+            </div>
+            <p style="font-size: 0.875rem; color: var(--text-muted)">
+              Sua oficina mecânica de confiança na Avenida Maripá em Marechal
+              Cândido Rondon - PR.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="footer-title">Links Rápidos</h4>
+            <ul class="footer-links">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#agendamento">Agendamento</a></li>
+              <li><a href="#localizacao">Localização</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-title">Atendimento</h4>
+            <ul class="footer-links">
+              <li>Segunda a Sexta: 07:30 - 18:00</li>
+              <li>Sábado: 07:30 - 12:00</li>
+              <li>Domingo: Fechado</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-title">Contato</h4>
+            <ul class="footer-links">
+              <li>
+                <i
+                  class="fa-solid fa-location-dot"
+                  style="color: var(--accent-color)"
+                ></i>
+                Av. Maripá, Centro
+              </li>
+              <li>
+                <i
+                  class="fa-solid fa-phone"
+                  style="color: var(--accent-color)"
+                ></i>
+                (45) 9912-5310
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          style="
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+          "
+        >
+          &copy; 2026 Auto Mecânica Schumacher. Todos os direitos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const mobileNav = document.getElementById("mobile-nav");
+      const mobileLinks = document.querySelectorAll(".mobile-link");
+
+      menuToggle.addEventListener("click", () => {
+        const isVisible = mobileNav.style.display === "block";
+        mobileNav.style.display = isVisible ? "none" : "block";
+      });
+
+      mobileLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileNav.style.display = "none";
+        });
+      });
+
+      const bookingForm = document.getElementById("booking-form");
+      bookingForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const nome = document.getElementById("nome").value;
+        const servico = document.getElementById("servico").value;
+        alert(
+          `Obrigado, ${nome}! Sua solicitação de agendamento para ${servico} foi enviada. Entraremos em contato via WhatsApp.`,
+        );
+        bookingForm.reset();
+      });
+    </script>
+  </body>
+</html>
